@@ -10,13 +10,23 @@
 
 <section>
 
-<div class="jumbotron" style="">
+  <div class="jumbotron"
+    style="background-image: url('<?php the_sub_field('hero_img'); ?>')">
 
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
+    <h1 class="title"><?php the_sub_field('hero_title'); ?>
+    </h1>
+    <p class="lead"><?php the_sub_field('hero_text'); ?>
+    </p>
+
+    <a
+      href="<?php the_sub_field('cta_link'); ?>">
+      <button type="button" class="btn btn-outline-light btn-lg hero-btn"><span class="cta-btn"><?php the_sub_field('cta_button_text'); ?></span><span><i
+            class="fa fa-chevron-right"></i></span>
+      </button>
+
+    </a>
+
+  </div>
+
 
 </section>

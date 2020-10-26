@@ -2,14 +2,13 @@
 
 <head>
 
-  <title>Document</title>
+  <title><?php the_title(); ?>
+  </title>
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 
-  Head
-  <hr>
   <?php
   if (have_rows('acf_sections')) {
       while (have_rows('acf_sections')) {
