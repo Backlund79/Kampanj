@@ -4,3 +4,5 @@
 // title
 // left
 // right
+// color
+// text_color

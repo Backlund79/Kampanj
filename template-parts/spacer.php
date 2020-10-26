@@ -1,6 +1,7 @@
 <?php
 
 //ACF field taggs.
-// rubrik
-// farg
-// textfalt
+// title
+// color
+// text
+// text_color

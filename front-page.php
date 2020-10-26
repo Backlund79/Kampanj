@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 frontpage
 <?php
-if (have_rows('acf_spacer')) {
-    while (have_rows('acf_spacer')) {
+if (have_rows('acf_sections')) {
+    while (have_rows('acf_sections')) {
         the_row();
         if (get_row_layout() == 'acf_spacer_section') {
             get_template_part('template-parts/spacer');
@@ -17,7 +17,7 @@ if (have_rows('acf_spacer')) {
             get_template_part('template-parts/center-img');
         }
         if (get_row_layout() == 'acf_testeminal_section') {
-            get_template_part('template-parts/testemonial');
+            get_template_part('template-parts/');
         }
     }
 }

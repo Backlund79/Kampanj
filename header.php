@@ -10,8 +10,8 @@
   Head
   <hr>
   <?php
-  if (have_rows('acf_hero')) {
-      while (have_rows('acf_hero')) {
+  if (have_rows('acf_sections')) {
+      while (have_rows('acf_sections')) {
           the_row();
           if (get_row_layout() == 'acf_hero_section') {
               get_template_part('template-parts/hero');

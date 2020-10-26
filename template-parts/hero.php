@@ -4,5 +4,5 @@
 // hero_img
 // hero_title
 // hero_text
-// cta_knapp_text
+// cta_button_text
 // cta_link

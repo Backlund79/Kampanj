@@ -1,5 +1,7 @@
 <?php
+
 //ACF field taggs.
 // image
-// editor
-// farg
+// text
+// color
+// text_color
