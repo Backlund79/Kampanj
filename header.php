@@ -7,6 +7,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+
   Head
   <hr>
   <?php
@@ -18,3 +19,5 @@
           }
       }
   }
+?>
+  <main>
