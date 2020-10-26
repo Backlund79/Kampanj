@@ -59,7 +59,8 @@
 .left-block-text>p{
   text-shadow: 0px 0px 2px black;
 }
-.vcenter-item{
+.center {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
