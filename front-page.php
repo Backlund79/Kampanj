@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-frontpage
+
 <?php
 if (have_rows('acf_sections')) {
     while (have_rows('acf_sections')) {
