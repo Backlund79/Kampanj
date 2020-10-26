@@ -13,6 +13,9 @@ if (have_rows('acf_spacer')) {
         if (get_row_layout() == 'acf_right_block_section') {
             get_template_part('template-parts/right-block');
         }
+        if (get_row_layout() == 'acf_center_section') {
+            get_template_part('template-parts/center-img');
+        }
     }
 }
 ?>
