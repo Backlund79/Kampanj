@@ -85,3 +85,7 @@
   list-style: none;
   text-align: end;
 }
+.margin-fix{
+  margin-left: 0;
+  margin-right: 0;
+}

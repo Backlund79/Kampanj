@@ -8,6 +8,8 @@
 // right_title
 // color
 // text_color
+// cta_button_text
+// Cta_text
 
 // ACF repeater field
     // social_media_links
@@ -37,6 +39,14 @@
           style="color:<?php the_sub_field('text_color'); ?>">
           <?php the_sub_field('left_text'); ?>
         </p>
+        <a
+          href="<?php the_sub_field('cta_link'); ?>">
+          <button type="button" class="btn btn-outline-light btn-lg "><span class="cta-btn"><?php the_sub_field('cta_button_text'); ?></span><span><i
+                class="fa fa-chevron-right"></i></span>
+          </button>
+
+        </a>
+
 
       </div>
       <div class="col-md-4">
