@@ -78,3 +78,10 @@
 .testemoneal{
   height: 30vh;
 }
+.footer{
+  height: 25vh;
+}
+.social-media{
+  list-style: none;
+  text-align: end;
+}
