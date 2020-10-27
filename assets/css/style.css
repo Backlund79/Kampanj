@@ -23,11 +23,11 @@
 .cta-btn{
   font-weight: 600;
   padding-right: 5px;
-  transition: all 1s;
+  transition: all 500ms;
   text-shadow: 1px 1px 0px black;
 }
 .cta-btn:hover{
-  padding-right: 30px;
+  padding-right: 50px;
 }
 .hero-btn{
   margin-left: 30vw;
