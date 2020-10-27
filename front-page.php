@@ -17,7 +17,7 @@ if (have_rows('acf_sections')) {
             get_template_part('template-parts/center-img');
         }
         if (get_row_layout() == 'acf_testeminal_section') {
-            get_template_part('template-parts/');
+            get_template_part('template-parts/testemonial');
         }
     }
 }
